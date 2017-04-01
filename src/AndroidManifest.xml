@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.user.atozbasket">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/basket_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="AtoZ"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Login" />
+        <activity android:name=".OtpActivity" />
+        <activity
+            android:name=".Vegetables.Dummy"
+            android:label="Vegetables/Fruits" />
+        <activity android:name=".Picasso.ImageLoad" />
+        <activity android:name=".Testing" />
+        <activity
+            android:name=".CheckOut"
+            android:label="Check Out!" />
+        <activity
+            android:name=".EnterAddress"
+            android:label="Enter Complete Address" />
+        <activity android:name=".SelectArea" />
+        <activity
+            android:name=".CustomerDetails.MyAddress"
+            android:label="My Address" />
+        <activity
+            android:name=".EmptyCart"
+            android:label="Cart Empty!" />
+        <activity
+            android:name=".Grocery.GroceryDummy"
+            android:label="Grocery" />
+        <activity
+            android:name=".OrderPlaced"
+            android:label="Order Placed!" />
+        <activity
+            android:name=".CustomerDetails.MyOrders"
+            android:label="My Orders" />
+        <activity
+            android:name=".CustomerDetails.MyWallet"
+            android:label="My Wallet" />
+        <activity
+            android:name=".CustomerDetails.Notifications"
+            android:label="My Notifications" />
+        <activity
+            android:name=".Personalcare.PersonalDummy"
+            android:label="Personal Care" />
+        <activity
+            android:name=".HouseHolds.HouseDummy"
+            android:label="House Hold Items" />
+        <activity
+            android:name=".Beverages.BevaragesDummy"
+            android:label="Beverages" />
+        <activity
+            android:name=".Babycare.BabyDummy"
+            android:label="Baby Care" />
+        <activity
+            android:name=".Eggs.EggsDummy"
+            android:label="Eggs/Milk/Meat" />
+        <activity
+            android:name=".Food.FoodDummy"
+            android:label="Bakery Products" />
+        <activity
+            android:name=".CustomerDetails.FeedBack"
+            android:label="Feedback/Complaints" />
+        <activity
+            android:name=".CustomerDetails.AboutUs"
+            android:label="About Us!" />
+        <activity android:name=".IntroSlider.WelcomeActivity" />
+        <activity android:name=".RemoveItem" />
+        <activity android:name=".SubSearch" />
+        <activity android:name=".SubSearchDisplay" />
+        <activity
+            android:name=".WriteOrder.WriteOrder"
+            android:label="Write Your Order List" />
+        <activity
+            android:name=".PlaceOrder"
+            android:label="Edit Your Order!" />
+
+        <receiver
+            android:name=".ConnectivityReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".MerchantApp.MerchantActivity" />
+        <activity android:name=".MerchantApp.Orders" />
+        <activity android:name=".MerchantApp.Feedbacks" />
+        <activity android:name=".MerchantApp.ChangeAvailability" />
+        <activity android:name=".MerchantApp.SMSDelivery" />
+        <activity android:name=".MerchantApp.FeedbackSMS"></activity>
+    </application>
+
+</manifest>
