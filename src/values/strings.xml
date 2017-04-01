@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">AtoZ Basket</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="need_an_app">Have an idea ? Looking for an application for your startup. Contact us @ reddyprakash939@gmail.com or foodzamo@gmail.com. We will get back to you immediately. A to Z Basket developed and maintained by Food Zamo technologies. We undertake projects for your startups and maintain it.</string>
+    <string name="about_us">A to Z Basket is developed and maintained by Food Zamo Technologies. A to Z Basket is the first comprehensive online grocery store in your city. With over 2,000 products from famous brands in our grocery list you will find everything you are looking for. Right from fresh fruits and vegetables, rice and daals, spices and seasonings to packaged bread, bakery and dairy products online and other branded foods online - we have it all. Save time and money, shop through A to Z Basket - the best online fruit &amp; vegetable store, meat store, provisions store - an all-encompassing online groceries store..</string>
+
+
+    <!--Intro Slider-->
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">OKAY</string>
+
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order daily needs for delivery at your door step.</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Sit and Relax because everything comes to you!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">We are with you to save your time and money.</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Write your ownlist without searching for the items.</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+</resources>
